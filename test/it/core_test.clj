@@ -9,4 +9,4 @@
   (fact "hello world is served at root"
     (let [response (client/get "http://localhost:3000")]
       (response :status) => 200
-      (response :body) => "hello world")))
+      (response :body) => "just testing")))

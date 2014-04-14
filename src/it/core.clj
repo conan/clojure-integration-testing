@@ -5,7 +5,7 @@
 (defn handler [request]
   {:status  200
    :headers {"Content-Type" "text/html"}
-   :body    "hello world"})
+   :body    (config :body)})
 
 (def server (atom nil))
 
